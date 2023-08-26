@@ -43,6 +43,6 @@ Bart Silva
 entendo que trata-se de um projeto apenas para fins de praticar o que foi mostrado nesse etapa
 do curso, contudo uma abordagem mais realista seria mais interessante, já que criar contas nesse
 contexto é algo que não vai existir no mundo real, talvez criar um cadastro em um site de compras
-você mais interessante.
+fosse mais interessante.
 
 
