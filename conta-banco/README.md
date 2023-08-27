@@ -3,6 +3,14 @@
 # Projeto - ContaBanco
 É um projeto que visa por em prática, os conceitos que aprendemos neste primeiro
 momento do curso.
+- [x] Amatomia das classes
+- [x] Padrão de nomenclatura de: classes, métodos e váriáeis
+- [x] Tipos e variáveis
+- [x] Operadores
+- [x] Métodos
+- [x] Escopo
+- [x] Palavras reservadas
+- [x] Documentação 
 
 #### Idealizador do projeto
 - [Gleyson Sampaio](https://github.com/glysns)
