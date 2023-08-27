@@ -3,18 +3,20 @@ import java.util.Scanner;
 
 /**
  * <h1>ContaTerminal</h1>
- * A ContaTerminal recebe os dados de suposto cliente e exibe mensagem de boas
+ * A ContaTerminal possui dois métodos, receiveCustomerData responsável
+ * por receber via teclado os dados do cliente e o printCustomerData que
+ * faz a impressão da mensagem de boas vidas para o novo cliente.
  * vidas!
  * <p>
  * <b>Note:</b> Leia atentamente a documentação desta classe
- * para desfrutar dos recursos oferecidos pelo autor
+ * para desfrutar dos recursos oferecidos
  *
  * @author Bart Silva
  * @version 1.0
  * @since 27/08/2023
  */
 public class ContaTerminal {
-
+  
   private String nameCustomer;    // nome do cliente
   private int numberAccount;      // múmero da conta
   private String numberAgency;    // número da agência
@@ -56,13 +58,13 @@ public class ContaTerminal {
    * de boas vindas.
    */
   public void printCustomerData() {
-    String message = "Olá " + this.nameCustomer
+    final String MESSAGE = "Olá " + this.nameCustomer
         .concat(", obrigado por criar uma conta em nosso banco, ")
         .concat("sua agência é " + this.numberAgency)
         .concat(", conta " + this.numberAccount + " ")
         .concat("e seu saldo " + this.balanceAccount + " ")
         .concat("já está disponível para saque.");
 
-    System.out.println(message);
+    System.out.println(MESSAGE);
   }
 }
