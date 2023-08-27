@@ -6,7 +6,7 @@ import java.util.Scanner;
  * A ContaTerminal possui dois métodos, receiveCustomerData responsável
  * por receber via teclado os dados do cliente e o printCustomerData que
  * faz a impressão da mensagem de boas vidas para o novo cliente.
- * vidas!
+ * 
  * <p>
  * <b>Note:</b> Leia atentamente a documentação desta classe
  * para desfrutar dos recursos oferecidos
