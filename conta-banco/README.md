@@ -23,8 +23,9 @@ momento do curso.
 
 ### Nome das Classes
 ```
-para nomear as classes, segui o padrão em portugûes, conforme o proposto no projeto,
-mas, para os métodos e varíaveis, utilizei o inglês.
+para nomear as classes, segui o proposto no projeto, mas, para os métodos e varíaveis,
+utilizei o inglês para praticar, embora saiba que o ideal é ter um único idioma nos projetos.
+
 ```
 **Estrutura do Projeto**
 ```
@@ -37,6 +38,11 @@ na classe ContaTerminal.
 
 ![Alt text](image-1.png)
 
+**ContaTerminal**
+para visualiar o código pode clicar no link abaixo:<p>
+https://github.com/bartomsilva/dio-java-projects/blob/main/conta-banco/src/ContaTerminal.java
+
+
 ## Detalhes Gerais
 
 - utilizei a classe Scanner para poder coletar os dados do cliente,
@@ -48,7 +54,7 @@ na classe ContaTerminal.
       System.out.println("Digite seu nome:");
       nameCustomer = keyboard.nextLine();
   ```
-- Procurei utilizar todos recuros apresentados durante este módulo,
+- Procurei utilizar todos recursos apresentados durante este módulo,
   mas sem exagerar e deixar o código feio ou confuso.
 
 ### Pessoas Desenvolvedoras
