@@ -4,7 +4,7 @@
 É um projeto que visa por em prática, os conceitos que aprendemos neste primeiro
 momento do curso.
 - [x] Amatomia das classes
-- [x] Padrão de nomenclatura de: classes, métodos e váriáeis
+- [x] Padrão de nomenclatura de: classes, métodos e váriáveis
 - [x] Tipos e variáveis
 - [x] Operadores
 - [x] Métodos
@@ -23,25 +23,21 @@ momento do curso.
 
 ### Nome das Classes
 ```
-para nomear as classes, segui o proposto no projeto, mas, para os métodos e varíaveis,
-utilizei o inglês para praticar, embora saiba que o ideal é ter um único idioma nos projetos.
-
+para nomear as classes, métodos e varíaveis,
+segui as boas práticas de programação e o
+proposto no projeto.
 ```
 **Estrutura do Projeto**
-```
-Dividi em duas partes, criei a classe principal chamada MeuBanco, que chama os métodos
-necessários para realizar a coleta dos dados e a impressão, estes métodos estão contidos
-na classe ContaTerminal.  
-```
 
-**Imagem de MeuBanco**
+![image](https://github.com/bartomsilva/dio-java-projects/assets/106079184/cd9b4f6f-9686-45f6-8305-3f74a737a2e1)
 
-![Alt text](image-1.png)
 
 **ContaTerminal**
-para visualiar o código pode clicar no link abaixo:<p>
+* separei as funcionalidades em dois métodos conforme imagem abaixo:<p>
+  ![image](https://github.com/bartomsilva/dio-java-projects/assets/106079184/a5b3b026-6026-4811-8701-d0cab3ec08cf)<p>
+* separando assim as responsabilidades.<p>
+<i>para visualiar o código pode clicar no link abaixo:</i><p>
 https://github.com/bartomsilva/dio-java-projects/blob/main/conta-banco/src/ContaTerminal.java
-
 
 ## Detalhes Gerais
 
@@ -51,8 +47,8 @@ https://github.com/bartomsilva/dio-java-projects/blob/main/conta-banco/src/Conta
   permite capturar uma linha inteira.
   
   ```Java
-      System.out.println("Digite seu nome:");
-      nameCustomer = keyboard.nextLine();
+   System.out.println("Digite seu nome:");
+   nomeCliente = keyboard.nextLine();
   ```
 - Procurei utilizar todos recursos apresentados durante este módulo,
   mas sem exagerar e deixar o código feio ou confuso.
