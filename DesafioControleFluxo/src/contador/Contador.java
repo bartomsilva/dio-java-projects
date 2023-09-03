@@ -6,7 +6,7 @@ import java.util.Scanner;
 /**
  * <h1>Contador</h1>
  * <p>
- * A classe contador recebe via teclado, dos números,
+ * A classe contador recebe via teclado, dois números,
  * e envia esses números para o método contar. 
  */
 public class Contador {
