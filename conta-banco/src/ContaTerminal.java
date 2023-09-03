@@ -16,29 +16,30 @@ import java.util.Scanner;
  * @since 27/08/2023
  */
 public class ContaTerminal {
-  
-  static private String nomeCliente;    // nome do cliente
-  static private int numero;      // múmero da conta
-  static private String agencia;    // número da agência
-  static private double saldo;  // saldo da conta
+
+  static private String nomeCliente; // nome do cliente
+  static private int numero; // múmero da conta
+  static private String agencia; // número da agência
+  static private double saldo; // saldo da conta
 
   public static void main(String[] args) {
     receberDadosCliente();
     imprimirDadosCliente();
   }
+
   /**
    * Este método é utilizado para rebeber através do teclado
    * os dados do cliente.
    */
   public static void receberDadosCliente() {
-    //cria uma instância de Scanner para poder receber os dados.
+    // cria uma instância de Scanner para poder receber os dados.
     Scanner keyboard = new Scanner(System.in).useLocale(Locale.US);
 
     System.out.println("----------------------------------");
     System.out.println("Por favor preencha os dados abaixo");
     System.out.println("e tecle ENTER para continuar");
     System.out.println("----------------------------------");
-    
+
     System.out.println("Digite seu nome:");
     nomeCliente = keyboard.nextLine();
 
@@ -51,7 +52,7 @@ public class ContaTerminal {
     System.out.println("Digite o seu saldo:");
     saldo = keyboard.nextDouble();
     System.out.println("");
-    
+
     // fecha o scanner
     keyboard.close();
   }
@@ -61,7 +62,7 @@ public class ContaTerminal {
    * de boas vindas.
    */
   static public void imprimirDadosCliente() {
-    final String MESSAGE = "Olá " +nomeCliente
+    final String MESSAGE = "Olá " + nomeCliente
         .concat(", obrigado por criar uma conta em nosso banco, ")
         .concat("sua agência é " + agencia)
         .concat(", conta " + numero + " ")
